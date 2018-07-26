@@ -1,0 +1,72 @@
+body{
+	margin: 0;
+	font-family: quicksand;
+	padding: 0
+}
+
+.Header{
+	position: relative;
+	height: 60px;
+	width: 100%;
+	box-shadow: 1px 0px 1px 0px rgba(32,32,32,0.5)
+}
+
+.Header #logo{
+	text-align: center;
+	height: 40px;
+	max-width: 20vw;
+	position: relative;
+	font-family: quicksand;
+	margin: 10px;
+	float: left;
+}
+.Header #logo p{
+	padding: 0;
+	margin: 0;
+	line-height: 2;
+	cursor: pointer;
+}
+
+.MenuOptions{
+	text-align: left;
+	float: right;
+	width: 70vw;
+	display: inline;
+}
+
+.MenuOptions ul{
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+
+.MenuOptions ul li{
+	font-size: 14px;
+    margin-left: 32px;
+    text-transform: uppercase;
+	margin-right: 32px;
+	line-height: 4;
+	cursor: pointer;
+	display: inline-block;
+	transition: 0.5s ease-in-out;
+}
+
+.MenuOptions ul li:hover{
+	text-shadow: 2px 2px #ff0000;
+}
+
+.SocialMedia{
+	overflow:hidden;
+	margin:0;
+	padding:0;
+	float: right;
+	list-style: none;
+}
+
+.SocialMedia li{
+	margin: 0 !important;
+	padding-right:5px;
+	padding-left:5px;
+	line-height: 4 !important;
+	display: inline-block;
+}

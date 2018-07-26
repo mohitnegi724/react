@@ -1,0 +1,65 @@
+.StaycardBody{
+	cursor: pointer;
+	width: 600px;
+	height: 300px;
+	margin: 6px;
+	display: inline-block;
+	box-shadow: 0px 0px 1px 0px rgba(32,32,32,0.3);
+	transition: 0.5s ease-in-out;
+}
+.StaycardBody:hover{
+	box-shadow: 1px 0px 10px 2px rgba(32,32,32,0.3);
+}
+.stayImage{
+	outline: none;
+	border: none;
+	width: 100%;
+	height: 155px;
+}
+
+.NameAndRating{
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+}
+.NameAndRating p{
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+}
+.NameAndRating .stayName{
+	margin: 0;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: 'Roboto', Quicksand;
+}
+
+.NameAndRating .stayRating{
+	margin:0;
+	position: relative;
+	font-family: quicksand;
+	display: inline-block;
+	padding:0;
+	float: right;
+	font-size: 12px;
+	right: 4px;
+}
+
+.stayLocation{
+	cursor: pointer;
+	position: relative;
+    font-size: 12px;
+    font-family: quicksand;
+    float: right;
+    right: 4px;
+    margin: 0;
+    position: relative;
+    transition: 0.5s ease-in-out;
+}
+
+.stayLocation:hover{
+	color: blue;
+}
