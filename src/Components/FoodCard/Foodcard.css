@@ -36,16 +36,17 @@
 	margin: 0;
 	margin-right: auto;
 	margin-left: auto;
-	font-size: 18px;
+	font-size: 15px;
 	text-transform: uppercase;
-	font-family: 'Roboto', Quicksand;
+	font-family: 'Raleway', Quicksand;
 }
 
 .NameAndRating .resRating{
 	margin:0;
 	position: relative;
-	font-family: quicksand;
+	font-family: 'Raleway',quicksand ;
 	display: inline-block;
+	font-weight: bold;
 	padding:0;
 	float: right;
 	font-size: 12px;
@@ -66,4 +67,16 @@
 
 .resLocation:hover{
 	color: blue;
+}
+
+.ratingStar{
+	margin-right: 8px;
+	width: 13px;
+	height: 13px;
+}
+
+.RatingDiv{
+	float: right;
+	margin: 0;
+	right: 0;
 }

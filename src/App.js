@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Foodcard from './Components/FoodCard/Foodcard';
+import OpenFoodCard from './Components/FoodCard/OpenFoodCard/OpenFoodCard';
 import Staycard from './Components/StayCard/Staycard';
 import Header from './Components/Header/Header';
 import './App.css';
@@ -11,7 +12,7 @@ class App extends Component {
           RestaurantRating:4.5,
           RestaurantLocation:"DehraDun",
           RestaurantKey:"Res1",
-          RestaurantImage:"https://cdn.pixabay.com/photo/2017/11/22/00/18/donuts-2969490_960_720.jpg" },
+          RestaurantImage:"https://goo.gl/xb6FNz"},
         {RestaurantName: "Cafe Ivy",
           RestaurantRating:4.5,
           RestaurantLocation:"Mussoorie",
@@ -130,6 +131,7 @@ class App extends Component {
           StayKey:"Stay12",
           StayImage:"https://goo.gl/rzfQkY"}
         ],
+        ratingImage:"https://png.icons8.com/color/1600/star.png",
         showFood: false,
         showStay: false
   };
@@ -152,6 +154,7 @@ class App extends Component {
     let ResCard = Restaurants.map((Restaurant, Index)=>{
     //Returning Foodcard Component
     return <Foodcard imageSource={Restaurant.RestaurantImage}
+              rating={this.state.ratingImage}
               resName={Restaurant.RestaurantName} 
               resLocation={Restaurant.RestaurantLocation}
               resRating={Restaurant.RestaurantRating}
@@ -182,6 +185,9 @@ class App extends Component {
           <div className="Container">{StayCard}</div>
         </div>:null
         }
+        <OpenFoodCard mainImage={this.state.Restaurant[3].RestaurantImage} 
+         mainRestaurantImage={this.state.Restaurant[3].RestaurantImage}
+         title={this.state.Restaurant[3].RestaurantName}/>
       </div>
     )
   }
