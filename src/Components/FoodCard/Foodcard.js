@@ -4,7 +4,7 @@ import './Foodcard.css';
 const Foodcard = (props)=>{
 	return(
 			<div className="FoodcardBody">
-				<img className="resImage"/>
+				<img className="resImage" src={props.imageSource} alt={props.resName}/>
 				<div className="NameAndRating">
 					<p className="resName">{props.resName}</p>
 					<p className="resRating">{props.resRating}</p>

@@ -4,7 +4,7 @@ import './Staycard.css';
 const Staycard=(props)=>{
 	return(
 		<div className="StaycardBody">
-			< img className = "stayImage"/>
+			< img className = "stayImage" alt={props.stayName} src={props.imageSource}/>
 			<div className="NameAndRating">
 				<p className="stayName">{props.stayName}</p>
 				<p className="stayRating">{props.stayRating}</p>
