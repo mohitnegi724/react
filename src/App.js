@@ -185,9 +185,9 @@ class App extends Component {
           <div className="Container">{StayCard}</div>
         </div>:null
         }
-        <OpenFoodCard mainImage={this.state.Restaurant[3].RestaurantImage} 
-         mainRestaurantImage={this.state.Restaurant[3].RestaurantImage}
-         title={this.state.Restaurant[3].RestaurantName}/>
+        <OpenFoodCard mainImage={this.state.Restaurant[6].RestaurantImage} 
+         mainRestaurantImage={this.state.Restaurant[6].RestaurantImage}
+         title={this.state.Restaurant[6].RestaurantName}/>
       </div>
     )
   }

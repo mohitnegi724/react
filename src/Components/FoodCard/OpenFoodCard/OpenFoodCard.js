@@ -2,12 +2,14 @@ import React from 'react';
 import './OpenFoodCard.css';
 const OpenFoodCard = (props)=>{
 	return(
-		<div className="AllCenter">
+		<div className="MainContainer AllCenter">
 			<div className="BlurryBGDiv">
-				<img src={props.mainImage} className="BlurryBGImage"/>
+				<img alt={props.title} src={props.mainImage} className="BlurryBGImage"/>
 			</div>
-			<img className="mainRestaurantImage" src={props.mainRestaurantImage}/>
-			<h3>{props.title}</h3>
+			<div className="CardDetailContainer">
+				<img alt={props.title} className="mainRestaurantImage" src={props.mainRestaurantImage}/>
+				<h3 className="CardTitle">{props.title}</h3>
+			</div>
 		</div>
 		)
 }
