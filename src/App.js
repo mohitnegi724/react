@@ -16,6 +16,7 @@ class App extends Component {
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res1",
           RestaurantImage:"http://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788989/SuperDonuts.jpg",
+          RestaurantThumbImage:"http://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532788989/SuperDonuts.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "Cafe Ivy",
           RestaurantRating:4.5,
@@ -25,6 +26,7 @@ class App extends Component {
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res2",
           RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788986/Cafe-Ivy.jpg",
+          RestaurantThumbImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532788986/Cafe-Ivy.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "Uncle M Hungry",
           RestaurantRating:4.5,
@@ -34,6 +36,7 @@ class App extends Component {
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res3",
           RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788995/Uncle-M-Hungry.jpg",
+          RestaurantThumbImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532788995/Uncle-M-Hungry.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "Landour Bakery",
           RestaurantRating:4.5,
@@ -43,6 +46,7 @@ class App extends Component {
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res4",
           RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788989/Landour-Bakery.jpg",
+          RestaurantThumbImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532788989/Landour-Bakery.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "The Tea Room at Alaya",
           RestaurantRating:4.5,
@@ -52,6 +56,7 @@ class App extends Component {
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res5",
           RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788989/Alaya.jpg",
+          RestaurantThumbImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532788989/Alaya.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "Honey Hut",
           RestaurantRating:4.2,
@@ -61,6 +66,7 @@ class App extends Component {
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res6",
           RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788992/Honey_Hut.jpg",
+          RestaurantThumbImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532788992/Honey_Hut.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "L'Opéra Dehradun",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
@@ -70,6 +76,7 @@ class App extends Component {
           RestaurantLocation:"DehraDun",
           RestaurantKey:"Res7",
           RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788996/Lopers.jpg",
+          RestaurantThumbImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532788996/Lopers.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "Mussoorie Lights",
           RestaurantRating:4.6,
@@ -79,6 +86,7 @@ class App extends Component {
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res8",
           RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788996/Mussoorie_Lights.jpg",
+          RestaurantThumbImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532788996/Mussoorie_Lights.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "First Gear Cafe",
           RestaurantRating:4.2,
@@ -88,6 +96,7 @@ class App extends Component {
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res9",
           RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788995/First_Gear_Cafe.jpg",
+          RestaurantThumbImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532788995/First_Gear_Cafe.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "Bikanervala",
           RestaurantRating:4.5,
@@ -97,6 +106,7 @@ class App extends Component {
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res10",
           RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532789000/Bikanervala.jpg",
+          RestaurantThumbImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532789000/Bikanervala.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "The Great Indian Pub",
           RestaurantRating:4.2,
@@ -106,6 +116,7 @@ class App extends Component {
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res11",
           RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788998/The_Great_Indian_Pub.jpg",
+          RestaurantThumbImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532788998/The_Great_Indian_Pub.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "Flow Bistro",
           RestaurantRating:4.1,
@@ -115,6 +126,7 @@ class App extends Component {
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res12",
           RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788986/Flow-Bistro.jpg",
+          RestaurantThumbImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532788986/Flow-Bistro.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]}
         ],
         Stay:[
@@ -215,7 +227,7 @@ class App extends Component {
     //Returning Foodcard Component
     return <Foodcard 
               showOpenFoodCard={()=>this.showOpenFoodCard(Index)} 
-              imageSource={Restaurant.RestaurantImage}
+              imageSource={Restaurant.RestaurantThumbImage}
               rating={this.state.ratingImage}
               resName={Restaurant.RestaurantName}
               resLocation={Restaurant.RestaurantLocation}
