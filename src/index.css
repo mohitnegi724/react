@@ -1,5 +1,24 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: quicksand;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: white; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: black; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
 }

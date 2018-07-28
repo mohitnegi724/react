@@ -3,7 +3,7 @@ import './Foodcard.css';
 
 const Foodcard = (props)=>{
 	return(
-			<div className="FoodcardBody">
+			<div className="FoodcardBody" onClick={props.showOpenFoodCard}>
 				<img className="resImage" src={props.imageSource} alt={props.resName}/>
 				<div className="NameAndRating">
 					<p className="resName">{props.resName}</p>

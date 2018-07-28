@@ -4,7 +4,7 @@ const Header=(props)=>{
 	return(
 		<div className="Header">
 			<div id="logo">
-				<p>The Title Or Logo</p>
+				<p>Uttarakhand ~ The Heaven</p>
 			</div>
 			<div className="MenuOptions">
 				<ul>

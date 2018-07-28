@@ -8,7 +8,11 @@ const OpenFoodCard = (props)=>{
 			</div>
 			<div className="CardDetailContainer">
 				<img alt={props.title} className="mainRestaurantImage" src={props.mainRestaurantImage}/>
-				<h3 className="CardTitle">{props.title}</h3>
+				<div className="TitleFormat">
+					<h3 className="CardTitle">{props.title}</h3>
+				</div>
+				<p className="CardTitleRestaurantAddress">{props.RestaurantAddress}</p>
+				<p className="RestaurantMustTry">{props.RestaurantMustTry}</p>
 			</div>
 		</div>
 		)

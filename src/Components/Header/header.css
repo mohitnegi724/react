@@ -5,7 +5,9 @@ body{
 }
 
 .Header{
-	position: relative;
+	background-color: white;
+	z-index: 2000;
+	position: fixed;
 	height: 60px;
 	width: 100%;
 	box-shadow: 1px 0px 1px 0px rgba(32,32,32,0.5)
