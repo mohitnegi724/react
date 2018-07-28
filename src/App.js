@@ -10,99 +10,111 @@ class App extends Component {
         Restaurant:[
         {RestaurantName: "Super Donuts",
           RestaurantRating:4.5,
+          RestaurantType:"https://png.icons8.com/ios/50/000000/cafe-filled.png",
           RestaurantAddress:"Shop No-5, Lower Ground Floor, World Trade Tower Bikanervala Complex, Rajpur Rd, Dehradun, Uttarakhand 248001",
           RestaurantLocation:"DehraDun",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res1",
-          RestaurantImage:"https://goo.gl/xb6FNz",
+          RestaurantImage:"http://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788989/SuperDonuts.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "Cafe Ivy",
           RestaurantRating:4.5,
+          RestaurantType:"https://png.icons8.com/ios/50/000000/cafe-filled.png",
           RestaurantAddress:"Chardukhan, Landour Cant, Near Sbi Bank, Mussoorie, Uttarakhand 248179",
           RestaurantLocation:"Mussoorie",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res2",
-          RestaurantImage:"https://goo.gl/UU8jfg",
+          RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788986/Cafe-Ivy.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "Uncle M Hungry",
           RestaurantRating:4.5,
+          RestaurantType:"https://png.icons8.com/ios/50/000000/restaurant-table-filled.png",
           RestaurantAddress:"Inside Osho Resorts . Delhi Public School, 111, Rajpur Rd, Dehradun, Uttarakhand 248001",
           RestaurantLocation:"DehraDun",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res3",
-          RestaurantImage:"https://goo.gl/eJE37e",
+          RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788995/Uncle-M-Hungry.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "Landour Bakery",
           RestaurantRating:4.5,
+          RestaurantType:"https://png.icons8.com/ios/50/000000/confectionery-filled.png",
           RestaurantAddress:"152, Sisters Bazaar, Landour, Mussoorie, Uttarakhand 248179",
           RestaurantLocation:"Mussoorie",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res4",
-          RestaurantImage:"https://goo.gl/TncSeb",
+          RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788989/Landour-Bakery.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "The Tea Room at Alaya",
           RestaurantRating:4.5,
+          RestaurantType:"https://png.icons8.com/ios/50/000000/cafe-filled.png",
           RestaurantAddress:"98, Old Mussoorie Rd, Kairwaan Gaon, Dehradun, Uttarakhand 248009",
           RestaurantLocation:"DehraDun",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res5",
-          RestaurantImage:"https://goo.gl/6rJGZf",
+          RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788989/Alaya.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "Honey Hut",
           RestaurantRating:4.2,
+          RestaurantType:"https://png.icons8.com/ios/50/000000/restaurant-table-filled.png",
           RestaurantAddress:"Landour bazar Rd, The Mall Road, Mussoorie, Uttarakhand 248179",
           RestaurantLocation:"Mussoorie",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res6",
-          RestaurantImage:"https://goo.gl/eT8cy4",
+          RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788992/Honey_Hut.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "L'Opéra Dehradun",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantRating:4.8,
+          RestaurantType:"https://png.icons8.com/ios/50/000000/confectionery-filled.png",
           RestaurantAddress:"46, EC Road, Race Course, Dehradun, Uttarakhand 248001",
           RestaurantLocation:"DehraDun",
           RestaurantKey:"Res7",
-          RestaurantImage:"https://goo.gl/bE4TB9",
+          RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788996/Lopers.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "Mussoorie Lights",
           RestaurantRating:4.6,
-          RestaurantAddress:"Hotel Park View (Payal Cinema Lane, 17, Rajpur Rd, Ashtley Hall, Chukkuwala, Dehradun, Uttarakhand 248001",
+          RestaurantType:"https://png.icons8.com/ios/50/000000/restaurant-table-filled.png",
+          RestaurantAddress:"Hotel Park View, Rajpur Rd, Ashtley Hall, Chukkuwala, Dehradun, Uttarakhand 248001",
           RestaurantLocation:"Mussoorie",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res8",
-          RestaurantImage:"https://goo.gl/NSF6q4",
+          RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788996/Mussoorie_Lights.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "First Gear Cafe",
           RestaurantRating:4.2,
+          RestaurantType:"https://png.icons8.com/ios/50/000000/cafe-filled.png",
           RestaurantAddress:"Mussoorie Road, Near Shiv Mandir, Khala Gaon, Dehradun District, Rajpur, Uttarakhand 248009",
           RestaurantLocation:"DehraDun",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res9",
-          RestaurantImage:"https://goo.gl/AqN57h",
+          RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788995/First_Gear_Cafe.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "Bikanervala",
           RestaurantRating:4.5,
+          RestaurantType:"https://png.icons8.com/ios/50/000000/restaurant-table-filled.png",
           RestaurantAddress:"99,World Trade Tower, Rajpur Road, Opp.Garhwal Mandal, Dehradun, Uttarakhand 248001",
           RestaurantLocation:"DehraDun",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res10",
-          RestaurantImage:"https://goo.gl/nH57y7",
+          RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532789000/Bikanervala.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "The Great Indian Pub",
           RestaurantRating:4.2,
+          RestaurantType:"https://png.icons8.com/ios/50/000000/bar-filled.png",
           RestaurantAddress:"Roof Top, Doon Zone, 138/345, Rajpur Road, Jakhan, Dehradun, Uttarakhand 248001",
           RestaurantLocation:"DehraDun",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res11",
-          RestaurantImage:"https://goo.gl/qn1Miz",
+          RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788998/The_Great_Indian_Pub.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "Flow Bistro",
           RestaurantRating:4.1,
+          RestaurantType:"https://png.icons8.com/ios/50/000000/bar-filled.png",
           RestaurantAddress:"Shop number 16 & 17, Pacific Hills, near Mussoorie Diversion, Dehradun, Uttarakhand 248001",
           RestaurantLocation:"DehraDun",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res12",
-          RestaurantImage:"https://goo.gl/xTdE33",
+          RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788986/Flow-Bistro.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]}
         ],
         Stay:[
@@ -207,6 +219,7 @@ class App extends Component {
               rating={this.state.ratingImage}
               resName={Restaurant.RestaurantName}
               resLocation={Restaurant.RestaurantLocation}
+              resType={Restaurant.RestaurantType}
               resRating={Restaurant.RestaurantRating}
               key={Restaurant.RestaurantKey}/>
     });
@@ -215,7 +228,7 @@ class App extends Component {
     //Getting And Printing Them Individually
     let StayCard =Stays.map((Stay, Index)=>{
     //Returning Foodcard Component
-    return <Staycard 
+    return <Staycard
               imageSource={Stay.StayImage}
               stayName={Stay.StayName} 
               stayLocation={Stay.StayLocation}
@@ -224,7 +237,7 @@ class App extends Component {
     });
 
     let ResIndex =()=>{
-      return 1;
+      return 6;
     }
     return (
       <div>

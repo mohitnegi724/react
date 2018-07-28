@@ -1,6 +1,6 @@
 body{
 	margin: 0;
-	font-family: quicksand;
+	font-family: 'teko',quicksand;
 	padding: 0
 }
 
@@ -18,7 +18,6 @@ body{
 	height: 40px;
 	max-width: 20vw;
 	position: relative;
-	font-family: quicksand;
 	margin: 10px;
 	float: left;
 }
@@ -43,10 +42,11 @@ body{
 }
 
 .MenuOptions ul li{
-	font-size: 14px;
-    margin-left: 32px;
+	width: 70px;
+	font-size: 16px;
+    margin-left: 10px;
     text-transform: uppercase;
-	margin-right: 32px;
+	margin-right: 10px;
 	line-height: 4;
 	cursor: pointer;
 	display: inline-block;
@@ -54,7 +54,8 @@ body{
 }
 
 .MenuOptions ul li:hover{
-	text-shadow: 2px 2px #ff0000;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px #ffbc00;
 }
 
 .SocialMedia{

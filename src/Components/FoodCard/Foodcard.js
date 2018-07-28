@@ -12,7 +12,10 @@ const Foodcard = (props)=>{
 					<p className="resRating">{props.resRating}</p>
 					</div>
 				</div>
+				<div className="Bottom">
+				<img src={props.resType} className="resType"/>
 				<p className="resLocation">{props.resLocation}</p>
+				</div>
 			</div>
 		)
 }
