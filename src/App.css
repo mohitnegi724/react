@@ -1,6 +1,5 @@
 .MainHomeContainer{
-	display: block;
-	top: 60px;
+	display: grid;
 }
 .Container{
     text-align: center;

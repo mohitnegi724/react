@@ -13,7 +13,7 @@ const Foodcard = (props)=>{
 					</div>
 				</div>
 				<div className="Bottom">
-				<img src={props.resType} className="resType"/>
+				<img src={props.resType} alt="type" className="resType"/>
 				<p className="resLocation">{props.resLocation}</p>
 				</div>
 			</div>

@@ -9,6 +9,8 @@ class App extends Component {
   state={
         Restaurant:[
         {RestaurantName: "Super Donuts",
+          MealPrice:"Rs 500",
+          RestaurantTimings:"09:00 - 21:00",
           RestaurantRating:4.5,
           RestaurantType:"https://png.icons8.com/ios/50/000000/cafe-filled.png",
           RestaurantAddress:"Shop No-5, Lower Ground Floor, World Trade Tower Bikanervala Complex, Rajpur Rd, Dehradun, Uttarakhand 248001",
@@ -19,16 +21,20 @@ class App extends Component {
           RestaurantThumbImage:"http://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532788989/SuperDonuts.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "Cafe Ivy",
+          MealPrice:"Rs 500 - Rs 2,000",
+          RestaurantTimings:"09:00 - 21:00",
           RestaurantRating:4.5,
           RestaurantType:"https://png.icons8.com/ios/50/000000/cafe-filled.png",
           RestaurantAddress:"Chardukhan, Landour Cant, Near Sbi Bank, Mussoorie, Uttarakhand 248179",
           RestaurantLocation:"Mussoorie",
-          RestaurantMustTry:"Brewed Beer, Craft Beer",
+          RestaurantMustTry:"Pancakes, Waffles, Baked Chicken Nachos, Pizza",
           RestaurantKey:"Res2",
           RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788986/Cafe-Ivy.jpg",
           RestaurantThumbImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532788986/Cafe-Ivy.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "Uncle M Hungry",
+          MealPrice:"Rs 500",
+          RestaurantTimings:"09:00 - 21:00",
           RestaurantRating:4.5,
           RestaurantType:"https://png.icons8.com/ios/50/000000/restaurant-table-filled.png",
           RestaurantAddress:"Inside Osho Resorts . Delhi Public School, 111, Rajpur Rd, Dehradun, Uttarakhand 248001",
@@ -39,6 +45,8 @@ class App extends Component {
           RestaurantThumbImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532788995/Uncle-M-Hungry.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "Landour Bakery",
+          MealPrice:"Rs 500",
+          RestaurantTimings:"09:00 - 21:00",
           RestaurantRating:4.5,
           RestaurantType:"https://png.icons8.com/ios/50/000000/confectionery-filled.png",
           RestaurantAddress:"152, Sisters Bazaar, Landour, Mussoorie, Uttarakhand 248179",
@@ -49,7 +57,12 @@ class App extends Component {
           RestaurantThumbImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532788989/Landour-Bakery.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "The Tea Room at Alaya",
+          MealPrice:"Rs 500",
+          RestaurantTimings:"09:00 - 21:00",
           RestaurantRating:4.5,
+          RestaurantFacebook:"https://www.facebook.com/TheTeaRoomatAlaya",
+          RestaurantInstagram:"#",
+          RestaurantWeb:"#",
           RestaurantType:"https://png.icons8.com/ios/50/000000/cafe-filled.png",
           RestaurantAddress:"98, Old Mussoorie Rd, Kairwaan Gaon, Dehradun, Uttarakhand 248009",
           RestaurantLocation:"DehraDun",
@@ -59,6 +72,8 @@ class App extends Component {
           RestaurantThumbImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532788989/Alaya.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "Honey Hut",
+          MealPrice:"Rs 500",
+          RestaurantTimings:"09:00 - 21:00",
           RestaurantRating:4.2,
           RestaurantType:"https://png.icons8.com/ios/50/000000/restaurant-table-filled.png",
           RestaurantAddress:"Landour bazar Rd, The Mall Road, Mussoorie, Uttarakhand 248179",
@@ -69,6 +84,8 @@ class App extends Component {
           RestaurantThumbImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532788992/Honey_Hut.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "L'Opéra Dehradun",
+          MealPrice:"Rs 500",
+          RestaurantTimings:"09:00 - 21:00",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantRating:4.8,
           RestaurantType:"https://png.icons8.com/ios/50/000000/confectionery-filled.png",
@@ -79,6 +96,8 @@ class App extends Component {
           RestaurantThumbImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532788996/Lopers.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "Mussoorie Lights",
+          MealPrice:"Rs 500 - Rs 5,000",
+          RestaurantTimings:"09:00 - 21:00",
           RestaurantRating:4.6,
           RestaurantType:"https://png.icons8.com/ios/50/000000/restaurant-table-filled.png",
           RestaurantAddress:"Hotel Park View, Rajpur Rd, Ashtley Hall, Chukkuwala, Dehradun, Uttarakhand 248001",
@@ -89,6 +108,8 @@ class App extends Component {
           RestaurantThumbImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532788996/Mussoorie_Lights.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "First Gear Cafe",
+          MealPrice:"Rs 500",
+          RestaurantTimings:"09:00 - 21:00",
           RestaurantRating:4.2,
           RestaurantType:"https://png.icons8.com/ios/50/000000/cafe-filled.png",
           RestaurantAddress:"Mussoorie Road, Near Shiv Mandir, Khala Gaon, Dehradun District, Rajpur, Uttarakhand 248009",
@@ -99,6 +120,8 @@ class App extends Component {
           RestaurantThumbImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532788995/First_Gear_Cafe.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "Bikanervala",
+          MealPrice:"Rs 500",
+          RestaurantTimings:"09:00 - 21:00",
           RestaurantRating:4.5,
           RestaurantType:"https://png.icons8.com/ios/50/000000/restaurant-table-filled.png",
           RestaurantAddress:"99,World Trade Tower, Rajpur Road, Opp.Garhwal Mandal, Dehradun, Uttarakhand 248001",
@@ -109,6 +132,8 @@ class App extends Component {
           RestaurantThumbImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532789000/Bikanervala.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "The Great Indian Pub",
+          MealPrice:"Rs 500",
+          RestaurantTimings:"09:00 - 21:00",
           RestaurantRating:4.2,
           RestaurantType:"https://png.icons8.com/ios/50/000000/bar-filled.png",
           RestaurantAddress:"Roof Top, Doon Zone, 138/345, Rajpur Road, Jakhan, Dehradun, Uttarakhand 248001",
@@ -119,6 +144,8 @@ class App extends Component {
           RestaurantThumbImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532788998/The_Great_Indian_Pub.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "Flow Bistro",
+          MealPrice:"Rs 500",
+          RestaurantTimings:"09:00 - 21:00",
           RestaurantRating:4.1,
           RestaurantType:"https://png.icons8.com/ios/50/000000/bar-filled.png",
           RestaurantAddress:"Shop number 16 & 17, Pacific Hills, near Mussoorie Diversion, Dehradun, Uttarakhand 248001",
@@ -192,6 +219,8 @@ class App extends Component {
           StayImage:"https://goo.gl/rzfQkY"}
         ],
         ratingImage:"https://png.icons8.com/color/1600/star.png",
+        mealPriceImage:"https://png.icons8.com/color/50/000000/rupee.png",
+        timingImage:"https://png.icons8.com/ios/50/000000/clock-filled.png",
         showFood: false,
         showStay: false,
         OpenFoodCard:false,
@@ -210,7 +239,6 @@ class App extends Component {
       OpenFoodCard:false,
     })
   }
-
   showOpenFoodCard=(RestaurantIndex)=>{
     let GetIndex = RestaurantIndex;
     console.log(GetIndex);
@@ -249,7 +277,7 @@ class App extends Component {
     });
 
     let ResIndex =()=>{
-      return 6;
+      return 4;
     }
     return (
       <div>
@@ -265,12 +293,22 @@ class App extends Component {
             <div className="Container">{StayCard}</div>
           </div>:null
           }
-          {this.state.OpenFoodCard ?
+          {
+            this.state.OpenFoodCard ?
             <div>
             <OpenFoodCard mainImage={this.state.Restaurant[ResIndex()].RestaurantImage}
+            MealPrice={this.state.Restaurant[ResIndex()].MealPrice}
+            MealPriceImage={this.state.mealPriceImage}
             mainRestaurantImage={this.state.Restaurant[ResIndex()].RestaurantImage}
+            RestaurantType={this.state.Restaurant[ResIndex()].RestaurantType}
             title={this.state.Restaurant[ResIndex()].RestaurantName}
-            RestaurantAddress={this.state.Restaurant[ResIndex()].RestaurantAddress}/>
+            RestaurantAddress={this.state.Restaurant[ResIndex()].RestaurantAddress}
+            RestaurantMustTry={this.state.Restaurant[ResIndex()].RestaurantMustTry}
+            timingImage={this.state.timingImage}
+            RestaurantTimings={this.state.Restaurant[ResIndex()].RestaurantTimings}
+            RestaurantFacebook={this.state.Restaurant[ResIndex()].RestaurantFacebook}
+            RestaurantInstagram={this.state.Restaurant[ResIndex()].RestaurantInstagram}
+            RestaurantWeb={this.state.Restaurant[ResIndex()].RestaurantWeb}/>
             </div>:null
           }
          </div>
