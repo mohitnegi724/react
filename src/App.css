@@ -11,3 +11,48 @@
     top: 60px;
     display: block;
 }
+
+
+.FooterArea{
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	position: fixed;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.ToggleFooter{
+	cursor: pointer;
+	float: right;
+	width: 150px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	height: 30px;
+	position: relative;
+}
+
+.ToggleFooterText{
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	right: 20px;
+	position: absolute;
+	line-height: 2.5;
+	font-size: 15px;
+	transition: 0.8s ease-in-out;
+}
+
+.ToggleFooterArea{
+	text-align: center;
+	cursor: pointer;
+	float: right;
+	position: relative;
+}
+
+.FooterAdj{
+	height: 130px;
+}

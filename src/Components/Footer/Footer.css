@@ -1,0 +1,25 @@
+.Footer{
+	width: 100%;
+	height: 100px;
+	display: inline-block;
+	background-color: black;
+}
+
+.OurSocialMedia{
+    text-align: center;
+    right: 0;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    bottom: 0;
+}
+
+.OurSocialMedia img{
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	max-width: 30px;
+	max-height: 30px;
+	cursor: pointer;
+	margin: 10px;
+}

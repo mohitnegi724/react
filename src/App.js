@@ -3,6 +3,7 @@ import Foodcard from './Components/FoodCard/Foodcard';
 import OpenFoodCard from './Components/FoodCard/OpenFoodCard/OpenFoodCard';
 import Staycard from './Components/StayCard/Staycard';
 import Header from './Components/Header/Header';
+import Footer from './Components/Footer/Footer';
 import './App.css';
 
 class App extends Component {
@@ -354,16 +355,17 @@ class App extends Component {
         showStay: false,
         OpenFoodCard:false,
         RestaurantContact:"+91 9560 788 976",
+        showFooter:false
   };
   showFoodHandler=()=>{
-      this.setState({
+     this.setState({
         showFood:true,
         showStay:false,
         OpenFoodCard:false,
       })
   }
   showStayHandler=()=>{
-    this.setState({
+     this.setState({
       showStay: true,
       showFood:false,
       OpenFoodCard:false,
@@ -376,6 +378,12 @@ class App extends Component {
       showFood:false,
       OpenFoodCard:true,
     })
+  }
+  ToggleFooter=()=>{
+     let currentFooterPostion = this.state.showFooter;
+     this.setState({
+          showFooter : !currentFooterPostion,
+     })
   }
   render(){
     //Fetching The List Of Restaurants
@@ -407,11 +415,11 @@ class App extends Component {
     });
 
     let ResIndex =()=>{
-      return 4;
+      return 7;
     }
     return (
       <div>
-        < Header Food = {this.showFoodHandler} Stay={this.showStayHandler}/>
+        <Header Food = {this.showFoodHandler} Stay={this.showStayHandler}/>
         <div className="MainHomeContainer">
           {
             this.state.showFood===true?<div>
@@ -450,6 +458,16 @@ class App extends Component {
             RestaurantContact={this.state.RestaurantContact}/>
             </div>:null
           }
+         </div>
+         <div className="FooterArea">
+               <div className="ToggleFooterArea" onClick={this.ToggleFooter}>
+                    <div className="ToggleFooter">
+                         <p className="ToggleFooterText">Let's be Friend</p>
+                   </div>
+              </div>
+              {
+               this.state.showFooter ? <div className="FooterAdj"><Footer/></div>:null
+              }
          </div>
       </div>
     )
