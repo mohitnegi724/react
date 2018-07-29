@@ -24,7 +24,7 @@ class App extends Component {
           RestaurantBooking:"Available",
           RestaurantDessert:"Available",
           RestaurantVegNonVeg:"Veg / Non Veg",
-          RestaurantType:"https://png.icons8.com/ios/50/000000/cafe-filled.png",
+          RestaurantType:"https://png.icons8.com/nolan/50/000000/cafe.png",
           RestaurantAddress:"Shop No-5, Lower Ground Floor, World Trade Tower Bikanervala Complex, Rajpur Rd, Dehradun, Uttarakhand 248001",
           RestaurantLocation:"DehraDun",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
@@ -47,7 +47,7 @@ class App extends Component {
           RestaurantBooking:"Available",
           RestaurantDessert:"Available",
           RestaurantVegNonVeg:"Veg / Non Veg",
-          RestaurantType:"https://png.icons8.com/ios/50/000000/cafe-filled.png",
+          RestaurantType:"https://png.icons8.com/nolan/50/000000/cafe.png",
           RestaurantAddress:"Chardukhan, Landour Cant, Near Sbi Bank, Mussoorie, Uttarakhand 248179",
           RestaurantLocation:"Mussoorie",
           RestaurantMustTry:"Pancakes, Waffles, Baked Chicken Nachos, Pizza",
@@ -70,7 +70,7 @@ class App extends Component {
           RestaurantBooking:"Available",
           RestaurantDessert:"Available",
           RestaurantVegNonVeg:"Veg / Non Veg",
-          RestaurantType:"https://png.icons8.com/ios/50/000000/restaurant-table-filled.png",
+          RestaurantType:"https://png.icons8.com/color/50/000000/dining-room.png",
           RestaurantAddress:"Inside Osho Resorts . Delhi Public School, 111, Rajpur Rd, Dehradun, Uttarakhand 248001",
           RestaurantLocation:"DehraDun",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
@@ -93,7 +93,7 @@ class App extends Component {
           RestaurantBooking:"Available",
           RestaurantDessert:"Available",
           RestaurantVegNonVeg:"Veg / Non Veg",
-          RestaurantType:"https://png.icons8.com/ios/50/000000/confectionery-filled.png",
+          RestaurantType:"https://png.icons8.com/office/50/000000/confectionery.png",
           RestaurantAddress:"152, Sisters Bazaar, Landour, Mussoorie, Uttarakhand 248179",
           RestaurantLocation:"Mussoorie",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
@@ -116,7 +116,7 @@ class App extends Component {
           RestaurantBooking:"Available",
           RestaurantDessert:"Available",
           RestaurantVegNonVeg:"Veg / Non Veg",
-          RestaurantType:"https://png.icons8.com/ios/50/000000/cafe-filled.png",
+          RestaurantType:"https://png.icons8.com/nolan/50/000000/cafe.png",
           RestaurantAddress:"98, Old Mussoorie Rd, Kairwaan Gaon, Dehradun, Uttarakhand 248009",
           RestaurantLocation:"DehraDun",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
@@ -139,7 +139,7 @@ class App extends Component {
           RestaurantBooking:"Available",
           RestaurantDessert:"Available",
           RestaurantVegNonVeg:"Veg / Non Veg",
-          RestaurantType:"https://png.icons8.com/ios/50/000000/restaurant-table-filled.png",
+          RestaurantType:"https://png.icons8.com/color/50/000000/dining-room.png",
           RestaurantAddress:"Landour bazar Rd, The Mall Road, Mussoorie, Uttarakhand 248179",
           RestaurantLocation:"Mussoorie",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
@@ -163,7 +163,7 @@ class App extends Component {
           RestaurantBooking:"Available",
           RestaurantDessert:"Available",
           RestaurantVegNonVeg:"Veg / Non Veg",
-          RestaurantType:"https://png.icons8.com/ios/50/000000/confectionery-filled.png",
+          RestaurantType:"https://png.icons8.com/office/50/000000/confectionery.png",
           RestaurantAddress:"46, EC Road, Race Course, Dehradun, Uttarakhand 248001",
           RestaurantLocation:"DehraDun",
           RestaurantKey:"Res7",
@@ -185,7 +185,7 @@ class App extends Component {
           RestaurantBooking:"Available",
           RestaurantDessert:"Available",
           RestaurantVegNonVeg:"Veg / Non Veg",
-          RestaurantType:"https://png.icons8.com/ios/50/000000/restaurant-table-filled.png",
+          RestaurantType:"https://png.icons8.com/color/50/000000/bar.png",
           RestaurantAddress:"Hotel Park View, Rajpur Rd, Ashtley Hall, Chukkuwala, Dehradun, Uttarakhand 248001",
           RestaurantLocation:"Mussoorie",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
@@ -208,7 +208,7 @@ class App extends Component {
           RestaurantBooking:"Available",
           RestaurantDessert:"Available",
           RestaurantVegNonVeg:"Veg / Non Veg",
-          RestaurantType:"https://png.icons8.com/ios/50/000000/cafe-filled.png",
+          RestaurantType:"https://png.icons8.com/nolan/50/000000/cafe.png",
           RestaurantAddress:"Mussoorie Road, Near Shiv Mandir, Khala Gaon, Dehradun District, Rajpur, Uttarakhand 248009",
           RestaurantLocation:"DehraDun",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
@@ -231,7 +231,7 @@ class App extends Component {
           RestaurantBooking:"Available",
           RestaurantDessert:"Available",
           RestaurantVegNonVeg:"Veg / Non Veg",
-          RestaurantType:"https://png.icons8.com/ios/50/000000/restaurant-table-filled.png",
+          RestaurantType:"https://png.icons8.com/color/50/000000/dining-room.png",
           RestaurantAddress:"99,World Trade Tower, Rajpur Road, Opp.Garhwal Mandal, Dehradun, Uttarakhand 248001",
           RestaurantLocation:"DehraDun",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
@@ -254,7 +254,7 @@ class App extends Component {
           RestaurantBooking:"Available",
           RestaurantDessert:"Available",
           RestaurantVegNonVeg:"Veg / Non Veg",
-          RestaurantType:"https://png.icons8.com/ios/50/000000/bar-filled.png",
+          RestaurantType:"https://png.icons8.com/color/50/000000/bar.png",
           RestaurantAddress:"Roof Top, Doon Zone, 138/345, Rajpur Road, Jakhan, Dehradun, Uttarakhand 248001",
           RestaurantLocation:"DehraDun",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
@@ -277,7 +277,7 @@ class App extends Component {
           RestaurantBooking:"Available",
           RestaurantDessert:"Available",
           RestaurantVegNonVeg:"Veg / Non Veg",
-          RestaurantType:"https://png.icons8.com/ios/50/000000/bar-filled.png",
+          RestaurantType:"https://png.icons8.com/color/50/000000/bar.png",
           RestaurantAddress:"Shop number 16 & 17, Pacific Hills, near Mussoorie Diversion, Dehradun, Uttarakhand 248001",
           RestaurantLocation:"DehraDun",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
@@ -415,7 +415,7 @@ class App extends Component {
     });
 
     let ResIndex =()=>{
-      return 7;
+      return 2;
     }
     return (
       <div>
@@ -462,7 +462,7 @@ class App extends Component {
          <div className="FooterArea">
                <div className="ToggleFooterArea" onClick={this.ToggleFooter}>
                     <div className="ToggleFooter">
-                         <p className="ToggleFooterText">Let's be Friend</p>
+                         <p className="ToggleFooterText">Let's be Friends</p>
                    </div>
               </div>
               {
