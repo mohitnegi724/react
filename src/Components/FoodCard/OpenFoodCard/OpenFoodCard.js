@@ -17,10 +17,45 @@ const OpenFoodCard = (props)=>{
 					<a href={props.RestaurantFacebook} target="_blank"><img src="https://goo.gl/zMmnZJ" alt="Facebook"/></a>
 					<a href={props.RestaurantInstagram} target="_blank"><img src="https://goo.gl/DCRW9u" alt="Instagram"/></a>
 					<a href={props.RestaurantWeb} target="_blank"><img src="https://goo.gl/rUdcCn" alt="Website"/></a>
+					<p className="RestaurantContact">{props.RestaurantContact}</p>
 				</div>
 				<div className="MustTryDishes">
 					<h4 className="RestaurantMustTryTitle">Must Try</h4>
 					<p className="RestaurantMustTry">{props.RestaurantMustTry}</p>
+				</div>
+				<div className="RestaurantServices">
+					<div className="RestaurantService">
+						<p className="ServiceName">Dine In</p>
+						<p className="ServiceCheck">{props.RestaurantDineService}</p>
+					</div>
+					<div className="RestaurantService">
+						<p className="ServiceName">Air Conditioned</p>
+						<p className="ServiceCheck">{props.RestaurantAC}</p>
+					</div>
+					<div className="RestaurantService">
+						<p className="ServiceName">Bar</p>
+						<p className="ServiceCheck">{props.RestaurantBar}</p>
+					</div>
+					<div className="RestaurantService">
+						<p className="ServiceName">Outdoor Area</p>
+						<p className="ServiceCheck">{props.RestaurantOutdoorArea}</p>
+					</div>
+					<div className="RestaurantService">
+						<p className="ServiceName">Online Booking</p>
+						<p className="ServiceCheck">{props.RestaurantBooking}</p>
+					</div>
+					<div className="RestaurantService">
+						<p className="ServiceName">Smoking</p>
+						<p className="ServiceCheck">{props.RestaurantSmoking}</p>
+					</div>
+					<div className="RestaurantService">
+						<p className="ServiceName">Food Type</p>
+						<p className="ServiceCheck">{props.RestaurantVegNonVeg}</p>
+					</div>
+					<div className="RestaurantService">
+						<p className="ServiceName">Desserts</p>
+						<p className="ServiceCheck">{props.RestaurantDessert}</p>
+					</div>
 				</div>
 				<div className="CardDetails">
 					<div className="RestaurantPriceSection">
