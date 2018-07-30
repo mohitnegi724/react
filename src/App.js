@@ -393,6 +393,7 @@ class App extends Component {
     //Returning Foodcard Component
     return <Foodcard 
               showOpenFoodCard={()=>this.showOpenFoodCard(Index)} 
+              MealPrice={Restaurant.MealPrice}
               imageSource={Restaurant.RestaurantThumbImage}
               rating={this.state.ratingImage}
               resName={Restaurant.RestaurantName}
@@ -415,7 +416,7 @@ class App extends Component {
     });
 
     let ResIndex =()=>{
-      return 2;
+      return 4;
     }
     return (
       <div>

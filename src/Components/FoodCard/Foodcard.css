@@ -80,8 +80,10 @@
 }
 
 .RatingDiv{
+	position: absolute;
 	float: right;
 	margin: 0;
+	top: 0;
 	right: 0;
 }
 
@@ -103,4 +105,13 @@
 	margin: 0;
 	bottom: -10px;
 	position: relative;
+}
+
+.MealPrice{
+	font-size: 15px;
+	font-family: quicksand;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	margin: 0
 }
