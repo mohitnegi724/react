@@ -84,6 +84,7 @@ p{
 }
 
 .RatingDiv{
+	position: absolute;
 	float: right;
     margin: 0;
     top: 0;
@@ -113,9 +114,11 @@ p{
 	line-height: 2;
 	padding: 2px;
 	text-align: center;
-	margin-left: auto;
 	font-size: 12px;
 	font-family: quicksand;
 	font-weight: normal;
+	margin-left: auto;
 	margin-right: auto;
+	padding: 0;
+	margin: 0
 }

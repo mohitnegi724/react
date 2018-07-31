@@ -8,8 +8,8 @@ const Foodcard = (props)=>{
 				<div className="NameAndRating">
 					<p className="resName">{props.resName}</p>
 					<div className="RatingDiv">
-					<img className="ratingStar" src={props.rating} alt="ratingStar"/>
-					<p className="resRating">{props.resRating}</p>
+						<img className="ratingStar" src={props.rating} alt="ratingStar"/>
+						<p className="resRating">{props.resRating}</p>
 					</div>
 				</div>
 				<div className="Bottom">
