@@ -1,0 +1,43 @@
+[debug] [2018-07-31T11:53:07.233Z] ----------------------------------------------------------------------
+[debug] [2018-07-31T11:53:07.235Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\So Delhi\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-07-31T11:53:07.235Z] CLI Version:   4.0.1
+[debug] [2018-07-31T11:53:07.235Z] Platform:      win32
+[debug] [2018-07-31T11:53:07.235Z] Node Version:  v8.11.3
+[debug] [2018-07-31T11:53:07.236Z] Time:          Tue Jul 31 2018 17:23:07 GMT+0530 (India Standard Time)
+[debug] [2018-07-31T11:53:07.236Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-31T11:53:07.246Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-31T11:53:07.246Z] > authorizing via signed-in user
+[debug] [2018-07-31T11:53:07.248Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-31T11:53:07.248Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/DgF3gIdqFuGnXW73xCTfjyXYF3wsVVD1dRq4oB050ho',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Jul 31 2018 17:23:07 GMT+0530 (India Standard Time)
+[debug] [2018-07-31T11:53:07.573Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-31T11:53:07.667Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/uttarakhandtheheavenbymohit  
+  
+ Tue Jul 31 2018 17:23:07 GMT+0530 (India Standard Time)
+[debug] [2018-07-31T11:53:08.864Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-31T11:53:08.865Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/uttarakhandtheheavenbymohit/tokens  
+  
+ Tue Jul 31 2018 17:23:08 GMT+0530 (India Standard Time)
+[debug] [2018-07-31T11:53:09.935Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'uttarakhandtheheavenbymohit'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing build directory for upload...
+[debug] [2018-07-31T11:53:11.645Z] Error: ENOENT: no such file or directory, open 'C:\Users\So Delhi\AppData\Local\Temp;C:\mongodb\firebase-upload-39881fz8i2X9eo9v.tar.gz'
+    at Object.fs.openSync (fs.js:646:18)
+    at Object.fileSync (C:\Users\So Delhi\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\tmp\lib\tmp.js:269:15)
+    at module.exports (C:\Users\So Delhi\AppData\Roaming\npm\node_modules\firebase-tools\lib\prepareUpload.js:18:21)
+    at module.exports (C:\Users\So Delhi\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\hosting\deploy.js:29:10)
+    at _chain (C:\Users\So Delhi\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:26:38)
+    at C:\Users\So Delhi\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:86:14
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[error] 
+[error] Error: An unexpected error has occurred.

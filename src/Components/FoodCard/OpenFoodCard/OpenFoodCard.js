@@ -58,15 +58,15 @@ const OpenFoodCard = (props)=>{
 					</div>
 				</div>
 				<div className="CardDetails">
-					<div className="RestaurantPriceSection">
+					<div className="detailSection">
 						<img src={props.MealPriceImage} alt="Meal Price"/>
 						<p>{props.MealPrice}</p>
 					</div>
-					<div className="timingSection">
+					<div className="detailSection">
 						<img src={props.timingImage} alt="Meal Price"/>
 						<p>{props.RestaurantTimings}</p>
 					</div>
-					<div className="mapSection">
+					<div className="detailSection mapSection">
 						<img src="https://png.icons8.com/color/50/000000/google-maps.png" alt="Map"/>
 						<p>Map</p>
 					</div>

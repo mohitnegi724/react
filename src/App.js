@@ -391,7 +391,8 @@ class App extends Component {
     //Getting And Printing Them Individually
     let ResCard = Restaurants.map((Restaurant, Index)=>{
     //Returning Foodcard Component
-    return <Foodcard 
+    return <Foodcard
+               MealPrice={Restaurant.MealPrice}
               showOpenFoodCard={()=>this.showOpenFoodCard(Index)} 
               imageSource={Restaurant.RestaurantThumbImage}
               rating={this.state.ratingImage}
@@ -415,10 +416,10 @@ class App extends Component {
     });
 
     let ResIndex =()=>{
-      return 2;
+      return 7;
     }
     return (
-      <div>
+      <div className="MainBody">
         <Header Food = {this.showFoodHandler} Stay={this.showStayHandler}/>
         <div className="MainHomeContainer">
           {

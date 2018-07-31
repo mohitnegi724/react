@@ -98,56 +98,30 @@
 }
 
 .RestaurantPriceSection{
-	font-family: quicksand;
+}
+
+.detailSection{
+    font-family: quicksand;
     text-align: center;
     padding: 10px;
     width: 200px;
-    height: 100px;
+    height: 90px;
     display: inline-block;
     position: relative;
     background-color: #366ed1;
     color: white;
     margin-right: auto;
     margin-left: auto;
-    -webkit-box-shadow: 2px 0 2px 0px rgba(0,0,0,.5);
     box-shadow: 2px 0 2px 0px rgba(0,0,0,.5);
     margin: 5px;
-    transition: 0.9s ease-in-out;
+    transition: 0.9s ease-in-out
 }
 
 .timingSection{
-	font-family: quicksand;
-	text-align: center;
-	padding: 10px;
-	width: 200px;
-	height: 100px;
-	display: inline-block;
-	position: relative;
-	background-color: #366ed1;
-	color: white;
-	margin-right: auto;
-	margin-left: auto;
-	box-shadow: 2px 0 2px 0px rgba(0,0,0,.5);
-	margin: 5px;
-	transition: 0.9s ease-in-out
 }
 
 .mapSection{
-        font-family: quicksand;
-        text-align: center;
-        padding: 10px;
-        width: 200px;
-        height: 100px;
-        display: inline-block;
-        position: relative;
-        background-color: #366ed1;
-        color: white;
-        cursor: pointer;
-        margin-right: auto;
-        margin-left: auto;
-        box-shadow: 2px 0 2px 0px rgba(0,0,0,.5);
-        margin: 5px;
-        transition: 0.9s ease-in-out
+    cursor: pointer;
 }
 
 .CardTitleRestaurantAddress{
@@ -168,13 +142,12 @@
 	font-family: quicksand;
 	text-align: center;
 	width: 800px;
-	height: 100px;
+	height: 80px;
 	display: inline-block;
 	position: relative;
 	color: black;
 	margin-right: auto;
 	margin-left: auto;
-/*	box-shadow: 2px 0 2px 0px rgba(0,0,0,.5);*/
 }
 
 .RestaurantMustTryTitle{

@@ -1,3 +1,7 @@
+p{
+	margin: 0;
+	padding: 0;
+}
 .MainContainer{
 	position: relative;
 	margin-top: 60px;
@@ -5,7 +9,7 @@
 .FoodcardBody{
 	cursor: pointer;
 	width: 300px;
-	height: 230px;
+	height: 215px;
 	margin: 6px;
 	display: inline-block;
 	box-shadow: 0px 0px 1px 0px rgba(32,32,32,0.3);
@@ -81,8 +85,10 @@
 
 .RatingDiv{
 	float: right;
-	margin: 0;
-	right: 0;
+    margin: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
 }
 
 .resType{
@@ -97,10 +103,19 @@
 }
 
 .Bottom{
-	padding-top: 5px;
 	width: 100%;
 	height: 25px;
 	margin: 0;
-	bottom: -10px;
 	position: relative;
+}
+
+.MealPrice{
+	line-height: 2;
+	padding: 2px;
+	text-align: center;
+	margin-left: auto;
+	font-size: 12px;
+	font-family: quicksand;
+	font-weight: normal;
+	margin-right: auto;
 }

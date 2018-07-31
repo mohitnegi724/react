@@ -82,3 +82,73 @@ body{
 	line-height: 4 !important;
 	display: inline-block;
 }
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1300px){
+	.Header{
+		background-color: white;
+		z-index: 2000;
+		position: fixed;
+		height: 60px;
+		width: 100%;
+		box-shadow: 1px 0px 1px 0px rgba(32,32,32,0.5)
+	}
+	.HeaderBody{
+		text-align: center;
+	    width: 100%;
+	    height: 100%;
+	    position: relative;
+	    margin-left: auto;
+	    margin-right: auto;
+	    padding-left: 50px;
+	    display: block;
+	    padding-right: 50px;
+	}
+
+	.HeaderBody #logo{
+		text-align: center;
+		height: 40px;
+		padding-left: 10px;
+		display: inline-block;
+		position: relative;
+		float: left;
+	}
+	.HeaderBody #logo img{
+		cursor: pointer;
+		width: 50px;
+	}
+
+	.MenuOptions{
+		text-align: center;
+		float: right;
+		width: 90vw;
+		display: inline;
+	}
+
+	.MenuOptions ul{
+		margin: 0;
+		padding:0;
+		list-style: none;
+	}
+
+	.MenuOptions ul li{
+		width: 10vw;
+		font-size: 15px;
+	    margin-left: 5px;
+	    text-transform: uppercase;
+		margin-right: 5px;
+		line-height: 4;
+		cursor: pointer;
+		display: inline-block;
+		transition: 0.5s ease-in-out;
+	}
+
+	.MenuOptions ul li:hover{
+		letter-spacing: 2px;
+		text-shadow: 2px 2px #ffbc00;
+	}
+}
