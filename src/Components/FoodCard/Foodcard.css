@@ -15,8 +15,9 @@ p{
 	box-shadow: 0px 0px 1px 0px rgba(32,32,32,0.3);
 	transition: 0.5s ease-in-out;
 }
-.FoodcardBody:hover{
-	box-shadow: 1px 0px 10px 2px rgba(32,32,32,0.3);
+.FoodcardBody:hover {
+    transform: translate3d(0,-5px,0);
+    box-shadow: 0 8px 16px rgba(0,0,0,.18);
 }
 .resImage{
 	outline: none;

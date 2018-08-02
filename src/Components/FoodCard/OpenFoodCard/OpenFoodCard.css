@@ -1,7 +1,15 @@
+body{
+    outline: none;
+}
+
 .MainContainer{
-	width: 100%;
+	text-align: center;
+    width: 100%;
     height: 100%;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
     display: block;
 }
 
@@ -20,8 +28,8 @@
 	height: 100%;
 	object-fit: cover;
 	background-size: cover;
-	-webkit-filter: blur(10px); 
-	filter: blur(10px); 
+	-webkit-filter: blur(8px); 
+	filter: blur(8px); 
 	overflow: hidden;
 	max-height: 50vh;
 }
@@ -135,9 +143,11 @@
 }
 
 .RestaurantMustTry{
+    margin: 10px;
 	word-spacing: 2px;
 	font-family: quicksand;
 }
+
 .MustTryDishes{
 	font-family: quicksand;
 	text-align: center;
@@ -151,7 +161,6 @@
 }
 
 .RestaurantMustTryTitle{
-	padding: 0;
     margin: 0;
     font-family: Merriweather;
     text-transform: uppercase;
@@ -216,5 +225,6 @@
 }
 
 .ServiceName{
+    line-height: 3;
     font-weight: bold;
 }
