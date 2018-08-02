@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Rough from './Components/Rough/Rough';
 import Foodcard from './Components/FoodCard/Foodcard';
 import OpenFoodCard from './Components/FoodCard/OpenFoodCard/OpenFoodCard';
 import Staycard from './Components/StayCard/Staycard';
