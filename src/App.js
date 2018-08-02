@@ -9,15 +9,15 @@ import './App.css';
 
 class App extends Component {
   state={
-          index:null,
+        index:null,
         Restaurant:[
         {RestaurantName: "Super Donuts",
           MealPrice:"Rs 500",
           RestaurantTimings:"09:00 - 21:00",
           RestaurantRating:4.5,
-          RestaurantFacebook:"https://www.facebook.com/TheTeaRoomatAlaya",
-          RestaurantInstagram:"#",
-          RestaurantWeb:"#",
+          RestaurantFacebook:"#",
+          RestaurantInstagram:"https://www.instagram.com/superdonutsindia",
+          RestaurantWeb:"http://superdonuts.in",
           RestaurantDineService:"Available",
           RestaurantAC:"Available",
           RestaurantBar:"Not Available",
@@ -35,11 +35,11 @@ class App extends Component {
           RestaurantThumbImage:"http://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532788989/SuperDonuts.jpg",
           RestaurantGeographicalLocation:[28.478573, 77.324504]},
         {RestaurantName: "Cafe Ivy",
-          MealPrice:"Rs 500 - Rs 2,000",
+          MealPrice:"Rs 500",
           RestaurantTimings:"09:00 - 21:00",
           RestaurantRating:4.5,
-          RestaurantFacebook:"https://www.facebook.com/TheTeaRoomatAlaya",
-          RestaurantInstagram:"#",
+          RestaurantFacebook:"https://www.facebook.com/cafeivylandour",
+          RestaurantInstagram:"https://www.instagram.com/cafeivy",
           RestaurantWeb:"#",
           RestaurantDineService:"Available",
           RestaurantAC:"Available",
@@ -51,7 +51,7 @@ class App extends Component {
           RestaurantVegNonVeg:"Veg / Non Veg",
           RestaurantType:"https://png.icons8.com/nolan/50/000000/cafe.png",
           RestaurantAddress:"Chardukhan, Landour Cant, Near Sbi Bank, Mussoorie, Uttarakhand 248179",
-          RestaurantLocation:"Mussoorie",
+          RestaurantLocation:"Landour",
           RestaurantMustTry:"Pancakes, Waffles, Baked Chicken Nachos, Pizza",
           RestaurantKey:"Res2",
           RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788986/Cafe-Ivy.jpg",
@@ -61,8 +61,8 @@ class App extends Component {
           MealPrice:"Rs 500",
           RestaurantTimings:"09:00 - 21:00",
           RestaurantRating:4.5,
-          RestaurantFacebook:"https://www.facebook.com/TheTeaRoomatAlaya",
-          RestaurantInstagram:"#",
+          RestaurantFacebook:"https://www.facebook.com/unclemhungryosho",
+          RestaurantInstagram:"https://www.instagram.com/unclemhungry",
           RestaurantWeb:"#",
           RestaurantDineService:"Available",
           RestaurantAC:"Available",
@@ -84,7 +84,7 @@ class App extends Component {
           MealPrice:"Rs 500",
           RestaurantTimings:"09:00 - 21:00",
           RestaurantRating:4.5,
-          RestaurantFacebook:"https://www.facebook.com/TheTeaRoomatAlaya",
+          RestaurantFacebook:"https://www.facebook.com/LandourBakehouse",
           RestaurantInstagram:"#",
           RestaurantWeb:"#",
           RestaurantDineService:"Available",
@@ -97,7 +97,7 @@ class App extends Component {
           RestaurantVegNonVeg:"Veg / Non Veg",
           RestaurantType:"https://png.icons8.com/office/50/000000/confectionery.png",
           RestaurantAddress:"152, Sisters Bazaar, Landour, Mussoorie, Uttarakhand 248179",
-          RestaurantLocation:"Mussoorie",
+          RestaurantLocation:"Sisters Bazaar",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res4",
           RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788989/Landour-Bakery.jpg",
@@ -120,7 +120,7 @@ class App extends Component {
           RestaurantVegNonVeg:"Veg / Non Veg",
           RestaurantType:"https://png.icons8.com/nolan/50/000000/cafe.png",
           RestaurantAddress:"98, Old Mussoorie Rd, Kairwaan Gaon, Dehradun, Uttarakhand 248009",
-          RestaurantLocation:"DehraDun",
+          RestaurantLocation:"Kairwaan Gaon",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res5",
           RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788989/Alaya.jpg",
@@ -130,9 +130,9 @@ class App extends Component {
           MealPrice:"Rs 500",
           RestaurantTimings:"09:00 - 21:00",
           RestaurantRating:4.2,
-          RestaurantFacebook:"https://www.facebook.com/TheTeaRoomatAlaya",
+          RestaurantFacebook:"https://www.facebook.com/Honey-Hut-Mussoorie-1569728676599887",
           RestaurantInstagram:"#",
-          RestaurantWeb:"#",
+          RestaurantWeb:"https://www.honeyhut.co.in",
           RestaurantDineService:"Available",
           RestaurantAC:"Available",
           RestaurantBar:"Not Available",
@@ -143,7 +143,7 @@ class App extends Component {
           RestaurantVegNonVeg:"Veg / Non Veg",
           RestaurantType:"https://png.icons8.com/color/50/000000/dining-room.png",
           RestaurantAddress:"Landour bazar Rd, The Mall Road, Mussoorie, Uttarakhand 248179",
-          RestaurantLocation:"Mussoorie",
+          RestaurantLocation:"Mall Road, Mussoorie",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res6",
           RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788992/Honey_Hut.jpg",
@@ -154,9 +154,9 @@ class App extends Component {
           RestaurantTimings:"09:00 - 21:00",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantRating:4.8,
-          RestaurantFacebook:"https://www.facebook.com/TheTeaRoomatAlaya",
+          RestaurantFacebook:"https://www.facebook.com/LOpera-Dehradun-383058105401148",
           RestaurantInstagram:"#",
-          RestaurantWeb:"#",
+          RestaurantWeb:"https://loperaindia.com",
           RestaurantDineService:"Available",
           RestaurantAC:"Available",
           RestaurantBar:"Not Available",
@@ -167,7 +167,7 @@ class App extends Component {
           RestaurantVegNonVeg:"Veg / Non Veg",
           RestaurantType:"https://png.icons8.com/office/50/000000/confectionery.png",
           RestaurantAddress:"46, EC Road, Race Course, Dehradun, Uttarakhand 248001",
-          RestaurantLocation:"DehraDun",
+          RestaurantLocation:"Race Course",
           RestaurantKey:"Res7",
           RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788996/Lopers.jpg",
           RestaurantThumbImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/c_thumb,h_155,w_300/v1532788996/Lopers.jpg",
@@ -176,7 +176,7 @@ class App extends Component {
           MealPrice:"Rs 500 - Rs 5,000",
           RestaurantTimings:"09:00 - 21:00",
           RestaurantRating:4.6,
-          RestaurantFacebook:"https://www.facebook.com/TheTeaRoomatAlaya",
+          RestaurantFacebook:"https://www.facebook.com/mussoorielights",
           RestaurantInstagram:"#",
           RestaurantWeb:"#",
           RestaurantDineService:"Available",
@@ -189,7 +189,7 @@ class App extends Component {
           RestaurantVegNonVeg:"Veg / Non Veg",
           RestaurantType:"https://png.icons8.com/color/50/000000/bar.png",
           RestaurantAddress:"Hotel Park View, Rajpur Rd, Ashtley Hall, Chukkuwala, Dehradun, Uttarakhand 248001",
-          RestaurantLocation:"Mussoorie",
+          RestaurantLocation:"Chukkuwala",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res8",
           RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788996/Mussoorie_Lights.jpg",
@@ -199,7 +199,7 @@ class App extends Component {
           MealPrice:"Rs 500",
           RestaurantTimings:"09:00 - 21:00",
           RestaurantRating:4.2,
-          RestaurantFacebook:"https://www.facebook.com/TheTeaRoomatAlaya",
+          RestaurantFacebook:"https://www.facebook.com/1stgearcafe",
           RestaurantInstagram:"#",
           RestaurantWeb:"#",
           RestaurantDineService:"Available",
@@ -211,8 +211,8 @@ class App extends Component {
           RestaurantDessert:"Available",
           RestaurantVegNonVeg:"Veg / Non Veg",
           RestaurantType:"https://png.icons8.com/nolan/50/000000/cafe.png",
-          RestaurantAddress:"Mussoorie Road, Near Shiv Mandir, Khala Gaon, Dehradun District, Rajpur, Uttarakhand 248009",
-          RestaurantLocation:"DehraDun",
+          RestaurantAddress:"Mussoorie Road, Near Shiv Mandir, Khala Gaon, Dehradun, Rajpur, Uttarakhand 248009",
+          RestaurantLocation:"Khala Gaon",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res9",
           RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788995/First_Gear_Cafe.jpg",
@@ -222,7 +222,7 @@ class App extends Component {
           MealPrice:"Rs 500",
           RestaurantTimings:"09:00 - 21:00",
           RestaurantRating:4.5,
-          RestaurantFacebook:"https://www.facebook.com/TheTeaRoomatAlaya",
+          RestaurantFacebook:"https://www.facebook.com/bikanervalafoods",
           RestaurantInstagram:"#",
           RestaurantWeb:"#",
           RestaurantDineService:"Available",
@@ -245,8 +245,8 @@ class App extends Component {
           MealPrice:"Rs 500",
           RestaurantTimings:"09:00 - 21:00",
           RestaurantRating:4.2,
-          RestaurantFacebook:"https://www.facebook.com/TheTeaRoomatAlaya",
-          RestaurantInstagram:"#",
+          RestaurantFacebook:"https://www.facebook.com/thegreatindianpub",
+          RestaurantInstagram:"https://www.instagram.com/thegreatindianpub/",
           RestaurantWeb:"#",
           RestaurantDineService:"Available",
           RestaurantAC:"Available",
@@ -258,7 +258,7 @@ class App extends Component {
           RestaurantVegNonVeg:"Veg / Non Veg",
           RestaurantType:"https://png.icons8.com/color/50/000000/bar.png",
           RestaurantAddress:"Roof Top, Doon Zone, 138/345, Rajpur Road, Jakhan, Dehradun, Uttarakhand 248001",
-          RestaurantLocation:"DehraDun",
+          RestaurantLocation:"Jakhan",
           RestaurantMustTry:"Brewed Beer, Craft Beer",
           RestaurantKey:"Res11",
           RestaurantImage:"https://res.cloudinary.com/uttarakhandtheheaven/image/upload/v1532788998/The_Great_Indian_Pub.jpg",
@@ -268,7 +268,7 @@ class App extends Component {
           MealPrice:"Rs 500",
           RestaurantTimings:"09:00 - 21:00",
           RestaurantRating:4.1,
-          RestaurantFacebook:"https://www.facebook.com/TheTeaRoomatAlaya",
+          RestaurantFacebook:"https://www.facebook.com/flowbistro",
           RestaurantInstagram:"#",
           RestaurantWeb:"#",
           RestaurantDineService:"Available",
@@ -359,6 +359,7 @@ class App extends Component {
         RestaurantContact:"+91 9560 788 976",
         showFooter:false
   };
+
   showFoodHandler=()=>{
      this.setState({
         showFood:true,
@@ -366,14 +367,14 @@ class App extends Component {
         OpenFoodCard:false,
       })
   }
-  showStayHandler=()=>{
+showStayHandler=()=>{
      this.setState({
       showStay: true,
       showFood:false,
       OpenFoodCard:false,
-    })
+     })
   }
-  showOpenFoodCard=(RestaurantIndex)=>{
+showOpenFoodCard=(RestaurantIndex)=>{
     let GetIndex = RestaurantIndex;
     console.log(GetIndex);
     this.setState({
@@ -382,16 +383,11 @@ class App extends Component {
       index:GetIndex,
     })
   }
-  ToggleFooter=()=>{
+ToggleFooter=()=>{
      let currentFooterPostion = this.state.showFooter;
      this.setState({
           showFooter : !currentFooterPostion,
      })
-  }
-
-  Something=()=>{
-          document.getElementById("Print").textContent = "Paragraph changed!";
-          let Try = document.getElementById("Print");
   }
   render(){
     //Fetching The List Of Restaurants
@@ -426,28 +422,11 @@ class App extends Component {
     let ResIndex =()=>{
      let index = this.state.index ? this.state.index : 0;
      return index
-      // this.state.index;
     }
-    // myMove=()=>{
-    //   var FooterDiv = document.getElementById("ToggleFooterArea");   
-    //   var pos = 0;
-    //   var id = setInterval(frame, 5);
-    //   function frame() {
-    //     if (pos == 350) {
-    //       clearInterval(id);
-    //     } else {
-    //       pos++; 
-    //       elem.style.top = pos + 'px'; 
-    //       elem.style.left = pos + 'px'; 
-    //     }
-    //   }
-    // }
     return (
       <div className="MainBody">
         <Header Food = {this.showFoodHandler} Stay={this.showStayHandler}/>
         <div className="MainHomeContainer">
-          <Rough Something={this.Something}/>
-          <p id="Print"></p>
           {
             this.state.showFood===true?<div>
             <div className="Container">{ResCard}</div>
@@ -489,7 +468,7 @@ class App extends Component {
          <div className="FooterArea">
                <div id="ToggleFooterArea" className="ToggleFooterArea" onClick={this.ToggleFooter}>
                     <div className="ToggleFooter">
-                         <p className="ToggleFooterText">Let's be Friends</p>
+                         <p className="ToggleFooterText">Lets be Friends</p>
                    </div>
               </div>
               {
