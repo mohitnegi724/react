@@ -8,6 +8,7 @@ import './App.css';
 
 class App extends Component {
   state={
+          index:null,
         Restaurant:[
         {RestaurantName: "Super Donuts",
           MealPrice:"Rs 500",
@@ -377,6 +378,7 @@ class App extends Component {
     this.setState({
       showFood:false,
       OpenFoodCard:true,
+      index:GetIndex,
     })
   }
   ToggleFooter=()=>{
@@ -416,7 +418,9 @@ class App extends Component {
     });
 
     let ResIndex =()=>{
-      return 4;
+     let index = this.state.index ? this.state.index : 0;
+     return index
+      // this.state.index;
     }
     return (
       <div className="MainBody">
