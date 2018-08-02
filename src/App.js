@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Rough from './Components/Rough/Rough';
 import Foodcard from './Components/FoodCard/Foodcard';
 import OpenFoodCard from './Components/FoodCard/OpenFoodCard/OpenFoodCard';
 import Staycard from './Components/StayCard/Staycard';
@@ -385,6 +386,11 @@ class App extends Component {
           showFooter : !currentFooterPostion,
      })
   }
+
+  Something=()=>{
+          document.getElementById("Print").textContent = "Paragraph changed!";
+          let Try = document.getElementById("Print");
+  }
   render(){
     //Fetching The List Of Restaurants
     let Restaurants = this.state.Restaurant;
@@ -418,10 +424,26 @@ class App extends Component {
     let ResIndex =()=>{
       return 4;
     }
+    // myMove=()=>{
+    //   var FooterDiv = document.getElementById("ToggleFooterArea");   
+    //   var pos = 0;
+    //   var id = setInterval(frame, 5);
+    //   function frame() {
+    //     if (pos == 350) {
+    //       clearInterval(id);
+    //     } else {
+    //       pos++; 
+    //       elem.style.top = pos + 'px'; 
+    //       elem.style.left = pos + 'px'; 
+    //     }
+    //   }
+    // }
     return (
       <div className="MainBody">
         <Header Food = {this.showFoodHandler} Stay={this.showStayHandler}/>
         <div className="MainHomeContainer">
+          <Rough Something={this.Something}/>
+          <p id="Print"></p>
           {
             this.state.showFood===true?<div>
             <div className="Container">{ResCard}</div>
@@ -461,7 +483,7 @@ class App extends Component {
           }
          </div>
          <div className="FooterArea">
-               <div className="ToggleFooterArea" onClick={this.ToggleFooter}>
+               <div id="ToggleFooterArea" className="ToggleFooterArea" onClick={this.ToggleFooter}>
                     <div className="ToggleFooter">
                          <p className="ToggleFooterText">Let's be Friends</p>
                    </div>

@@ -1,6 +1,4 @@
-.MainHomeContainer{
-	display: grid;
-}
+
 .Container{
     text-align: center;
     width: 1300px;
@@ -58,4 +56,9 @@
 
 .FooterAdj{
 	height: 130px;
+}
+
+#Print{
+	position: absolute;
+	margin-top: 80px;
 }
