@@ -359,7 +359,7 @@ class App extends Component {
         showFooter:false
   };
 
-  showFoodHandler=()=>{
+showFoodHandler=()=>{
      this.setState({
         showFood:true,
         showStay:false,
@@ -373,13 +373,11 @@ showStayHandler=()=>{
       OpenFoodCard:false,
      })
   }
-showOpenFoodCard=(RestaurantIndex)=>{
-    let GetIndex = RestaurantIndex;
-    console.log(GetIndex);
+showOpenFoodCard=(ResIndex)=>{
     this.setState({
       showFood:false,
       OpenFoodCard:true,
-      index:GetIndex,
+      index:ResIndex,
     })
   }
 ToggleFooter=()=>{
@@ -388,13 +386,36 @@ ToggleFooter=()=>{
           showFooter : !currentFooterPostion,
      })
   }
-  render(){
+FilterByLocation=(FilterIndex)=>{
+    let Restaurants = this.state.Restaurant;
+     Restaurants.filter((Restaurant)=>{
+               return Restaurant.RestaurantLocation === this.state.Restaurant[FilterIndex].RestaurantLocation
+     }).map((Restaurant, Index)=> console.log(Restaurant.RestaurantName)
+     )
+  }
+FilterByResType=()=>{
+     let Restaurants = this.state.Restaurant;
+     Restaurants.filter((Restaurant)=>{
+               return Restaurant.RestaurantType === this.state.Restaurant[this.state.index].RestaurantType
+     }).map((Restaurant, Index)=> console.log(Restaurant.RestaurantName)
+     )
+  }
+FilterByResTypeInHomePage=(HomePageFilterIndex)=>{
+     let Restaurants = this.state.Restaurant;
+     Restaurants.filter((Restaurant)=>{
+          return Restaurant.RestaurantType === Restaurants[HomePageFilterIndex].RestaurantType
+     }).map((Restaurant)=>console.log(Restaurant.RestaurantName))
+}
+
+render(){
     //Fetching The List Of Restaurants
     let Restaurants = this.state.Restaurant;
     //Getting And Printing Them Individually
     let ResCard = Restaurants.map((Restaurant, Index)=>{
     //Returning Foodcard Component
     return <Foodcard
+              FilterByResType={()=>this.FilterByResTypeInHomePage(Index)}
+              FilterByLocation={()=>this.FilterByLocation(Index)}
               showOpenFoodCard={()=>this.showOpenFoodCard(Index)} 
               MealPrice={Restaurant.MealPrice}
               imageSource={Restaurant.RestaurantThumbImage}
@@ -418,12 +439,8 @@ ToggleFooter=()=>{
               key={Stay.StayKey}/>
     });
 
-    let ResIndex =()=>{
-     let index = this.state.index ? this.state.index : 0;
-     return index
-    }
     return (
-      <div className="MainBody">
+     <div className="MainBody">
         <Header Food = {this.showFoodHandler} Stay={this.showStayHandler}/>
         <div className="MainHomeContainer">
           {
@@ -439,27 +456,28 @@ ToggleFooter=()=>{
           {
             this.state.OpenFoodCard ?
             <div>
-            <OpenFoodCard mainImage={this.state.Restaurant[ResIndex()].RestaurantImage}
-            MealPrice={this.state.Restaurant[ResIndex()].MealPrice}
+            <OpenFoodCard mainImage={this.state.Restaurant[this.state.index].RestaurantImage}
+            MealPrice={this.state.Restaurant[this.state.index].MealPrice}
             MealPriceImage={this.state.mealPriceImage}
-            mainRestaurantImage={this.state.Restaurant[ResIndex()].RestaurantImage}
-            RestaurantType={this.state.Restaurant[ResIndex()].RestaurantType}
-            title={this.state.Restaurant[ResIndex()].RestaurantName}
-            RestaurantAddress={this.state.Restaurant[ResIndex()].RestaurantAddress}
-            RestaurantMustTry={this.state.Restaurant[ResIndex()].RestaurantMustTry}
+            mainRestaurantImage={this.state.Restaurant[this.state.index].RestaurantImage}
+            RestaurantType={this.state.Restaurant[this.state.index].RestaurantType}
+            FilterByResType={this.FilterByResType}
+            title={this.state.Restaurant[this.state.index].RestaurantName}
+            RestaurantAddress={this.state.Restaurant[this.state.index].RestaurantAddress}
+            RestaurantMustTry={this.state.Restaurant[this.state.index].RestaurantMustTry}
             timingImage={this.state.timingImage}
-            RestaurantDineService={this.state.Restaurant[ResIndex()].RestaurantDineService}
-            RestaurantAC={this.state.Restaurant[ResIndex()].RestaurantAC}
-            RestaurantBar={this.state.Restaurant[ResIndex()].RestaurantBar}
-            RestaurantOutdoorArea={this.state.Restaurant[ResIndex()].RestaurantOutdoorArea}
-            RestaurantBooking={this.state.Restaurant[ResIndex()].RestaurantBooking}
-            RestaurantSmoking={this.state.Restaurant[ResIndex()].RestaurantSmoking}
-            RestaurantVegNonVeg={this.state.Restaurant[ResIndex()].RestaurantVegNonVeg}
-            RestaurantDessert={this.state.Restaurant[ResIndex()].RestaurantDessert}
-            RestaurantTimings={this.state.Restaurant[ResIndex()].RestaurantTimings}
-            RestaurantFacebook={this.state.Restaurant[ResIndex()].RestaurantFacebook}
-            RestaurantInstagram={this.state.Restaurant[ResIndex()].RestaurantInstagram}
-            RestaurantWeb={this.state.Restaurant[ResIndex()].RestaurantWeb}
+            RestaurantDineService={this.state.Restaurant[this.state.index].RestaurantDineService}
+            RestaurantAC={this.state.Restaurant[this.state.index].RestaurantAC}
+            RestaurantBar={this.state.Restaurant[this.state.index].RestaurantBar}
+            RestaurantOutdoorArea={this.state.Restaurant[this.state.index].RestaurantOutdoorArea}
+            RestaurantBooking={this.state.Restaurant[this.state.index].RestaurantBooking}
+            RestaurantSmoking={this.state.Restaurant[this.state.index].RestaurantSmoking}
+            RestaurantVegNonVeg={this.state.Restaurant[this.state.index].RestaurantVegNonVeg}
+            RestaurantDessert={this.state.Restaurant[this.state.index].RestaurantDessert}
+            RestaurantTimings={this.state.Restaurant[this.state.index].RestaurantTimings}
+            RestaurantFacebook={this.state.Restaurant[this.state.index].RestaurantFacebook}
+            RestaurantInstagram={this.state.Restaurant[this.state.index].RestaurantInstagram}
+            RestaurantWeb={this.state.Restaurant[this.state.index].RestaurantWeb}
             RestaurantContact={this.state.RestaurantContact}/>
             </div>:null
           }
@@ -474,7 +492,7 @@ ToggleFooter=()=>{
                this.state.showFooter ? <div className="FooterAdj"><Footer/></div>:null
               }
          </div>
-      </div>
+     </div>
     )
   }
 }

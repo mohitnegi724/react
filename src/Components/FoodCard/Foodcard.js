@@ -13,8 +13,8 @@ const Foodcard = (props)=>{
 					</div>
 				</div>
 				<div className="Bottom">
-				<img src={props.resType} alt="type" className="resType"/>
-				<p className="resLocation">{props.resLocation}</p>
+				<img src={props.resType} alt="type" className="resType" onClick={props.FilterByResType}/>
+				<p className="resLocation" onClick={props.FilterByLocation}>{props.resLocation}</p>
 				<p className="MealPrice">{props.MealPrice}</p>
 				</div>
 			</div>

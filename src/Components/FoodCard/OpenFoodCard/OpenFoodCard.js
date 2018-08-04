@@ -9,7 +9,7 @@ const OpenFoodCard = (props)=>{
 			<div className="CardDetailContainer">
 				<img alt={props.title} className="mainRestaurantImage" src={props.mainRestaurantImage}/>
 				<div className="TitleFormat">
-					<img src={props.RestaurantType} alt={props.title} className="RestaurantType"/>
+					<img src={props.RestaurantType} alt={props.title} className="RestaurantType" onClick={props.FilterByResType}/>
 					<h3 className="CardTitle">{props.title}</h3>
 				</div>
 				<p className="CardTitleRestaurantAddress">{props.RestaurantAddress}</p>
